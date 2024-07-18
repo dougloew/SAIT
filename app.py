@@ -21,3 +21,7 @@ predictions = predictions_df.iloc[0]['prediction_label']
 #print(predictions)
 
 st.markdown(predictions)
+
+
+st.header('Insurance Charges')
+
