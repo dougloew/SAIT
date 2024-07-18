@@ -1,0 +1,301 @@
+2024-07-18 13:39:31,995:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:39:31,996:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:39:31,996:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:39:31,996:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:39:32,269:INFO:Initializing load_model()
+2024-07-18 13:39:32,269:INFO:load_model(model_name=insurance_dt_model, platform=None, authentication=None, verbose=True)
+2024-07-18 13:41:10,592:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:41:10,594:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:41:10,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:41:10,595:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:41:10,885:INFO:Initializing load_model()
+2024-07-18 13:41:10,886:INFO:load_model(model_name=insurance_dt_model, platform=None, authentication=None, verbose=True)
+2024-07-18 13:41:13,619:INFO:Initializing predict_model()
+2024-07-18 13:41:13,619:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000025A5FA0BC10>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'bmi', 'children'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'smoker', 'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['sex', 'smoker'],
+                                    transfor...
+                                                               mapping=[{'col': 'sex',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': female    0
+male      1
+NaN      -1
+dtype: int64},
+                                                                        {'col': 'smoker',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': no     0
+yes    1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['region'],
+                                    transformer=OneHotEncoder(cols=['region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', DecisionTreeRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000025A35497240>)
+2024-07-18 13:41:13,619:INFO:Checking exceptions
+2024-07-18 13:41:13,620:INFO:Preloading libraries
+2024-07-18 13:41:13,620:INFO:Set up data.
+2024-07-18 13:41:13,630:INFO:Set up index.
+2024-07-18 13:41:14,041:INFO:Initializing predict_model()
+2024-07-18 13:41:14,041:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000025A5F7C6850>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'bmi', 'children'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'smoker', 'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['sex', 'smoker'],
+                                    transfor...
+                                                               mapping=[{'col': 'sex',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': female    0
+male      1
+NaN      -1
+dtype: int64},
+                                                                        {'col': 'smoker',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': no     0
+yes    1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['region'],
+                                    transformer=OneHotEncoder(cols=['region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', DecisionTreeRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000025A35497240>)
+2024-07-18 13:41:14,041:INFO:Checking exceptions
+2024-07-18 13:41:14,041:INFO:Preloading libraries
+2024-07-18 13:41:14,041:INFO:Set up data.
+2024-07-18 13:41:14,047:INFO:Set up index.
+2024-07-18 13:42:01,492:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:42:01,493:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:42:01,494:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:42:01,494:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:42:01,754:INFO:Initializing load_model()
+2024-07-18 13:42:01,755:INFO:load_model(model_name=insurance_dt_model, platform=None, authentication=None, verbose=True)
+2024-07-18 13:42:04,454:INFO:Initializing predict_model()
+2024-07-18 13:42:04,455:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x000002A29181AB50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'bmi', 'children'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'smoker', 'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['sex', 'smoker'],
+                                    transfor...
+                                                               mapping=[{'col': 'sex',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': female    0
+male      1
+NaN      -1
+dtype: int64},
+                                                                        {'col': 'smoker',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': no     0
+yes    1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['region'],
+                                    transformer=OneHotEncoder(cols=['region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', DecisionTreeRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x000002A2E5007240>)
+2024-07-18 13:42:04,456:INFO:Checking exceptions
+2024-07-18 13:42:04,456:INFO:Preloading libraries
+2024-07-18 13:42:04,456:INFO:Set up data.
+2024-07-18 13:42:04,464:INFO:Set up index.
+2024-07-18 13:44:15,966:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:44:15,970:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:44:15,970:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:44:15,971:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:44:16,253:INFO:Initializing load_model()
+2024-07-18 13:44:16,254:INFO:load_model(model_name=insurance_dt_model, platform=None, authentication=None, verbose=True)
+2024-07-18 13:44:18,574:INFO:Initializing predict_model()
+2024-07-18 13:44:18,575:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000022B4B0CB110>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'bmi', 'children'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'smoker', 'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['sex', 'smoker'],
+                                    transfor...
+                                                               mapping=[{'col': 'sex',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': female    0
+male      1
+NaN      -1
+dtype: int64},
+                                                                        {'col': 'smoker',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': no     0
+yes    1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['region'],
+                                    transformer=OneHotEncoder(cols=['region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', DecisionTreeRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000022B20BD7240>)
+2024-07-18 13:44:18,575:INFO:Checking exceptions
+2024-07-18 13:44:18,575:INFO:Preloading libraries
+2024-07-18 13:44:18,578:INFO:Set up data.
+2024-07-18 13:44:18,589:INFO:Set up index.
+2024-07-18 13:44:44,951:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:44:44,952:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:44:44,952:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:44:44,952:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:44:45,206:INFO:Initializing load_model()
+2024-07-18 13:44:45,208:INFO:load_model(model_name=insurance_dt_model, platform=None, authentication=None, verbose=True)
+2024-07-18 13:44:47,595:INFO:Initializing predict_model()
+2024-07-18 13:44:47,595:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000294D52DB2D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'bmi', 'children'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'smoker', 'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['sex', 'smoker'],
+                                    transfor...
+                                                               mapping=[{'col': 'sex',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': female    0
+male      1
+NaN      -1
+dtype: int64},
+                                                                        {'col': 'smoker',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': no     0
+yes    1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['region'],
+                                    transformer=OneHotEncoder(cols=['region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', DecisionTreeRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000294AADD7240>)
+2024-07-18 13:44:47,595:INFO:Checking exceptions
+2024-07-18 13:44:47,595:INFO:Preloading libraries
+2024-07-18 13:44:47,596:INFO:Set up data.
+2024-07-18 13:44:47,603:INFO:Set up index.
+2024-07-18 13:46:42,225:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:46:42,226:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:46:42,227:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:46:42,227:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:46:42,519:INFO:Initializing load_model()
+2024-07-18 13:46:42,519:INFO:load_model(model_name=insurance_dt_model, platform=None, authentication=None, verbose=True)
+2024-07-18 13:46:44,738:INFO:Initializing predict_model()
+2024-07-18 13:46:44,738:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x00000250F4C49010>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'bmi', 'children'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'smoker', 'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['sex', 'smoker'],
+                                    transfor...
+                                                               mapping=[{'col': 'sex',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': female    0
+male      1
+NaN      -1
+dtype: int64},
+                                                                        {'col': 'smoker',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': no     0
+yes    1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['region'],
+                                    transformer=OneHotEncoder(cols=['region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', DecisionTreeRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000250C8FD71A0>)
+2024-07-18 13:46:44,739:INFO:Checking exceptions
+2024-07-18 13:46:44,739:INFO:Preloading libraries
+2024-07-18 13:46:44,741:INFO:Set up data.
+2024-07-18 13:46:44,751:INFO:Set up index.
+2024-07-18 13:48:56,045:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:48:56,047:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:48:56,048:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:48:56,048:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2024-07-18 13:48:56,452:INFO:Initializing load_model()
+2024-07-18 13:48:56,452:INFO:load_model(model_name=insurance_dt_model, platform=None, authentication=None, verbose=True)
+2024-07-18 13:48:59,388:INFO:Initializing predict_model()
+2024-07-18 13:48:59,389:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000023138D526D0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['age', 'bmi', 'children'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['sex', 'smoker', 'region'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('ordinal_encoding',
+                 TransformerWrapper(include=['sex', 'smoker'],
+                                    transfor...
+                                                               mapping=[{'col': 'sex',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': female    0
+male      1
+NaN      -1
+dtype: int64},
+                                                                        {'col': 'smoker',
+                                                                         'data_type': dtype('O'),
+                                                                         'mapping': no     0
+yes    1
+NaN   -1
+dtype: int64}]))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['region'],
+                                    transformer=OneHotEncoder(cols=['region'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', DecisionTreeRegressor(random_state=123))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000023138CFA0C0>)
+2024-07-18 13:48:59,390:INFO:Checking exceptions
+2024-07-18 13:48:59,391:INFO:Preloading libraries
+2024-07-18 13:48:59,395:INFO:Set up data.
+2024-07-18 13:48:59,415:INFO:Set up index.
